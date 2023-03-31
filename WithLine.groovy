@@ -39,10 +39,5 @@ class WithLine {
                 println("This is the line :")
             }
         }
-
-
-
-
     }
-
 }
