@@ -26,12 +26,12 @@ class WithLine {
         println(ele)
         for (Map.Entry<Integer,Integer> mapElement : hm.entrySet()) {
             Integer key = mapElement.getKey();
-            Integer value = (mapElement.getValue() );
-            if(value==ele){
+            Integer value = (mapElement.getValue());
+            if (value == ele) {
                 println("$Nth th largest line is  $key")
-                int lineN=1;
-                new File("/home/naveenmahantesh/groovy/newone/src/Doc3.txt").eachLine {line ->
-                    if (lineN==ele){
+                int lineN = 1;
+                new File("/home/naveenmahantesh/groovy/newone/src/Doc3.txt").eachLine { line ->
+                    if (lineN == ele) {
                         print(line)
                     }
                     lineN++
