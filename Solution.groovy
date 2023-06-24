@@ -17,7 +17,7 @@ class Solution {
                     currentline++
             }
             println("largest line contains :$large characters " )
-            //println("Nth largeest line : $Nthline")
-            print("Hello world")
+            println("Nth largeest line : $Nthline")
+            print("Hello end user !")
         }
     }
